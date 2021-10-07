@@ -23,3 +23,13 @@ Enter a word: virus
 
 ['apple', 'worm', 'dollar', 'shingle', 'virus']
 """
+loop = True
+forloop = 0
+words = []
+while loop :
+    words.append(input("Enter a word"))
+    forloop = forloop + 1
+    if forloop == 5:
+        loop = False
+
+print(words)
