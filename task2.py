@@ -27,7 +27,8 @@ loop = True
 forloop = 0
 words = []
 while loop :
-    words.append(input("Enter a word"))
+    a = input("Enter a word")
+    words.append(a.strip)
     forloop = forloop + 1
     if forloop == 5:
         loop = False
